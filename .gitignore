@@ -1,0 +1,31 @@
+# Keil 编译产物
+MDK-ARM/car/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.lnp
+*.dep
+*.sct
+*.iex
+*.tra
+*.htm
+
+# Keil 界面状态 / 备份
+*.uvguix.*
+*.bak
+*.bak_*
+
+# CubeMX 临时文件
+_gen*
+*.ioc.bak_*
+
+# 编辑器 / 系统
+.vscode/
+Thumbs.db
+desktop.ini

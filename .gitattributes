@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.uvprojx   text eol=lf
+*.uvoptx    text eol=lf
+*.ioc       text eol=lf
+*.mxproject text eol=lf
+
+*.jpeg binary
+*.jpg  binary
+*.png  binary
+*.pack binary
