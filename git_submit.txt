@@ -1,0 +1,9 @@
+cd "D:\stm_workplace\car _backup"
+git init
+git add .
+git commit -m "初始导入：麦轮车控制工程"
+git remote add origin https://github.com/Betty1236/EGA-competition-car.git
+git branch -M main
+git fetch origin
+git merge --no-edit --allow-unrelated-histories origin/main
+git push -u origin main
